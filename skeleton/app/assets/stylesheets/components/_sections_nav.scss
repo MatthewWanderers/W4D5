@@ -1,0 +1,22 @@
+.section_nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid $lightest-gray;
+}
+
+.nav_links {
+  display: flex;
+}
+
+.nav_links li {
+  margin: 5px 10px;
+  font-size: 12px;
+  font-family: $sans-serif;
+  align-items: center;
+}
+
+.nav_links a:hover {
+  background-color: $light-gray;
+  text-decoration: underline;
+}
